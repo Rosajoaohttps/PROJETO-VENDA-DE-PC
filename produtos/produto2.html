@@ -10,55 +10,71 @@
 </head>
 
 <body>
-    <div class="cabeçalho">
-
-        <ul class="cab">
-  
-           <li><a href="../home.html">INÍCIO</a></li>
-           <li> <a href="">SERVIÇOS</a></li>
-           <li><a href="">PRODUTOS</a></li>
-           <li><a href="">CONTATO </a></li>
-           <li><input class="inputInicio" type="text" placeholder="Pesquise por produtos..."></li>
-           <button type="button" onclick="divMenu('divMenu')">&#9776;</button>
-           
-        </ul>
-        <div id="divMenu" class="container" style="display:none"><nav>
-           <ul class="responsivo">
-              <li>
-                 <strong>CATEGORIAS</strong>
-              </li> <br><br>
-              <li>
-                 <a href="">HARDWARE </a>
-              </li><br><br>
-              <li>
-                 <a href="">COMPUTADORES </a>
-              </li><br><br>
-              <li>
-                 <a href="">MONITORES </a>
-              </li><br><br>
-              <li>
-                 <a href="">NOTEBOOKS</a>
-              </li><br><br>
-              <li>
-                 <a href="">PEREIFÉRICOS</a>
-              </li><br><br>
-              <li>
-                 <a href="">VIDEO GAMES</a>
-              </li><br><br>
-              <li>
-                 <strong>CONFIGURAÇÕES</strong>
-              </li><br><br>
-              <li>
-                 <a href="/Lojade_pc/Geral/account.html">MINHA CONTA</a>
-              </li><br><br>
-              <li>
-                 <a href="/Lojade_pc/Geral/info.html">QUEM SOMOS</a>
-              </li><br><br>
-              <li>
-                 <a href="">MODO ESCURO</a>
-              </li>
-        </nav></div>
+    <div class="cabeçalho-cima">
+        <div class="div-logo-cabeçalho"><img class="logo-cabeçalho" src="../imagens/logo-pichau-2021.png" alt=""></div>
+           <div class="conta">
+              <img class="contasimbolo" src="./imagens/icon-cabeçalho2.png" alt="">
+              <div class="minhaconta">MINHA CONTA</div>
+              <div class="entrarcadastro">ENTRAR / CADASTRO</div>
+           </div>
+           <div class="home-cabeçalho-atendimetno">
+              <img class="atendimentosimbolo" src="./imagens/iconquestion-removebg-preview.png" alt="">
+              <div class="cabeçalho-atendimento">ATENDIMENTO</div>
+              <div class="cabeçalho-aocliente">AO CLIENTE</div>
+           </div>
+           <div class="home-cabeçalho-modoescuro">
+              <img class="cabeçalho-modoclarosimbolo" src="./imagens/eclipseicon.png" alt="">
+              <div class="cabeçalho-modoclaro1">MODO</div>
+              <div class="cabeçalho-modoclaro2">CLARO</div>
+           </div>
+           <button class="divBotãoCarrinhoCabeçalhoCima">
+              <!-- <button class="BotãoCarrinhoCabeçalhoCima"> -->
+                 <img class="BotãoCarrinhoCabeçalhoCimaImagem" src="./imagens/carrinho.png" alt="">
+                 <div class="BotãoCarrinhoCabeçalhoCimaCarrinho">Carrinho</div>
+                 <div class="BotãoCarrinhoCabeçalhoCimaProduto">0 produtos</div>
+              <!-- </button> -->
+           </button>
+        <br><br><br>
      </div>
+     <div class="cabeçalho-baixo">
+        <div class="popup" onclick="myFunction()">
+           <span class="popuptext" id="myPopup"> 
+              <img class="logoPopUp" src="./imagens/logo-pichau-2021-dark.png" alt="">
+              <div class="PopUpTexto">
+                 <div class="PopUpTextoCategorias">Categorias</div>
+                 <div class="PopUpTextoHardware PopUpTexto">Hardware</div>
+                 <div class="PopUpTexto" class="PopUpTextoPeriféricos">Periféricos</div>
+                 <div class="PopUpTexto" class="PopUpTextoComputadores">Computadores</div>
+                 <div class="PopUpTexto" class="PopUpTextoKitUpgrade">Kit Upgrade</div>
+                 <div class="PopUpTexto" class="PopUpTextoMonitores">Monitores</div>
+                 <div class="PopUpTexto" class="PopUpTextoCadeiraseMesasGamer">Cadeiras e Mesas Gamer</div>
+                 <div class="PopUpTexto" class="PopUpTextoEletronicos">Eletronicos</div>
+                 <div class="PopUpTexto" class="PopUpTextoNotebooksePortáteis">Notebooks e Portáteis</div>
+                 <div class="PopUpTexto" class="PopUpTextoRedes&Wireless">Redes & Wireless</div>
+                 <div class="PopUpTexto" class="PopUpTextoRealidade Virtual">Realidade Virtual</div>
+                 <div class="PopUpTexto" class="PopUpTextoCasaInteligente">Casa Inteligente</div>
+                 <div class="PopUpTexto" class="PopUpTextoMundoGeek">Mundo Geek</div>
+                 <div class="PopUpTexto" class="PopUpTextoOpenBox">OpenBox</div>
+                 <div class="PopUpTexto" class="PopUpTextoCasaeLazer">Casa e Lazer</div>
+                 <div class="PopUpTexto" class="PopUpTextoVideoGames">Video Games</div>
+           <br>
+                 <div class="PopUpTextoAjudaeConfigurações">Ajuda e Configurações</div>
+                 <div class="PopUpTexto" class="PopUpTextoMinhaConta">Minha Conta</div>
+                 <div class="PopUpTexto" class="PopUpTextoQuemSomos">Quem Somos</div>
+                 <div class="PopUpTexto" class="PopUpTextoAtendimentoAoCliente">Atendimento ao Cliente</div>
+                 <div class="PopUpTexto" class="PopUpTextoComoComprar">Como Comprar</div> 
+              </div>
+           </span>
+              <button class="botão-menu">
+                 <img class="BotãoMenuCabeçalhoBaixoImagem" src="./imagens/menu-aberto.png" alt="">
+                 <div class="BotãoMenuCabeçalhoBaixoAcesse">Acesse todos os</div>
+                 <div class="BotãoMenuCabeçalhoBaixoDepartamentos">DEPARTAMENTOS</div>
+              </button>
+        </div>
+        <div class="div-inputInicio"><input class="pesquisaInicioHome" type="text" placeholder="Digite o que você procura..."></div>
+     </div>
+  </div>
+
   
     <div class="carrosselDeImagens">
         <img class="imagempequena1" src="../imagens/monitor 2.jpg" alt="" width="55%">
