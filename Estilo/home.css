@@ -1,0 +1,1363 @@
+/* Página de home abaixo */
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+    background-color: var(--fundo);
+    color: var(--texto_h1);
+     font-size: var(--tamanho_fonte);
+     color: var(--texto_h2);
+    font-size: var(--tamanho_fonte);
+    
+}
+.inicial{
+    --fundo: white;
+     --texto_h1: black;
+     --texto_h2: black;
+     --tamanho_fonte: 20px;
+     --CorCabeçalho: #A9A9A9;
+}
+.Preto {
+    --fundo: #262626;
+    --texto_h1: white;
+    --texto_h2:white;
+    --CorCabeçalho: #262626;
+   
+}
+.branco{
+    --fundo: lightgreen;
+    --texto_h1:green;
+    --texto_h2:darkgreen;
+    --tamanho_fonte: 2 5px;
+    }
+head {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+}
+.logo-cabeçalho{
+width: 90%;
+padding-top: 15px;
+padding-left: 24px;
+}
+.div-logo-cabeçalho{
+width: 18%;
+padding-right: 10%;
+}
+.cabeçalho-cima{
+    display: flex;
+    padding-top: 10px;
+}
+.cabeçalho {
+    margin: 0;
+    background-color: hwb(0 7% 93% / 0.87);
+    height: 170px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.logo-home{
+    width: 10%;
+    display: flex;
+}
+.botao-cabeçalho-home{
+    display: flex;
+    height: 80px;
+    padding-left: 20%;
+}
+ul.responsivo {
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute; 
+}
+nav {
+    background-color: rgb(35, 35, 35);
+    height: 600px;
+    padding-right: 2%;
+    padding-top: 2%;
+    word-spacing: 0;
+    margin-left: 81.2%;
+    margin-top: 2.3%;
+}
+ul {
+    margin: 0;
+    display: flex;
+    list-style: none;
+}
+button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+
+.conta {
+    padding-left: 55px;
+    display: inline-block;
+    display: grid;
+    grid-template-columns: 75px;
+    grid-template-areas:"contasimbolo minhaconta"
+        "contasimbolo entrarcadastro";
+}
+.contasimbolo {
+    padding-top: 24px;
+    width: 40%;
+    grid-area: contasimbolo;
+    padding-left: 35px;
+}
+.entrarcadastro{
+    font-weight: bolder;
+    padding-bottom: 12px;
+}
+.minhaconta {
+    padding-top: 20px;
+    grid-area: minhaconta;
+    font-size: 10px;
+    font-weight: bold;
+}
+.home-cabeçalho-atendimetno {
+    padding-left: 25px;
+    display: inline-block;
+    display: grid;
+    grid-template-columns: 75px;
+    grid-template-areas:"atendimentosimbolo cabeçalho-atendimento"
+        "atendimentosimbolo cabeçalho-aocliente";
+}
+.atendimentosimbolo {
+    padding-left: 35px;
+    padding-top: 24px;
+    width: 40%;
+    grid-area: atendimentosimbolo;
+}
+.cabeçalho-atendimento {
+    font-size: 10px;
+    padding-top: 20px;
+    width: 60%;
+    font-weight: bold;
+    grid-area: cabeçalho-atendimento;
+}
+.cabeçalho-aocliente {
+    grid-area: cabeçalho-aocliente;
+    font-size: 15px;
+    font-weight: bolder;
+    padding-bottom: 12px;
+}
+.home-cabeçalho-modoescuro {
+    padding-left: 25px;
+    padding-right: 25px;
+    display: inline-block;
+    display: grid;
+    grid-template-columns: 75px;
+    grid-template-areas:"cabeçalho-modoclarosimbolo cabeçalho-modoclaro1"
+        "cabeçalho-modoclarosimbolo cabeçalho-modoclaro2";
+}
+.cabeçalho-modoclarosimbolo {
+    padding-left: 35px;
+    padding-top: 24px;
+    width: 40%;
+    grid-area: cabeçalho-modoclarosimbolo;
+}
+.cabeçalho-modoclaro1 {
+    font-size: 10px;
+    padding-top: 20px;
+    width: 60%;
+    grid-area: cabeçalho-modoclaro1;
+    font-weight: bold;
+}
+.cabeçalho-modoclaro2 {
+    font-size: 15px;
+    grid-area: cabeçalho-modoclaro2;
+    font-weight: bolder;
+    padding-bottom: 12px;
+    padding-right: 25px;
+}
+.divBotãoCarrinhoCabeçalhoCima {
+    background-color: rgb(0, 175, 0);
+    padding-right: 25px;
+    border-radius: 10px;
+    height: 65px;
+    display: inline-block;
+    display: grid;
+    grid-template-columns: 75px;
+    grid-template-areas:"BotãoCarrinhoCabeçalhoCimaImagem BotãoCarrinhoCabeçalhoCimaCarrinho"
+        "BotãoCarrinhoCabeçalhoCimaImagem BotãoCarrinhoCabeçalhoCimaProduto";
+}
+.BotãoCarrinhoCabeçalhoCima{
+    background-color: green;
+    width: 80px;
+    height: 25px;
+}
+.BotãoCarrinhoCabeçalhoCimaImagem {
+    padding-left: 10px;
+    padding-top: 18px;
+    width: 40%;
+    grid-area: BotãoCarrinhoCabeçalhoCimaImagem;
+}
+.BotãoCarrinhoCabeçalhoCimaCarrinho {
+    font-size: 20px;
+    padding-top: 12px;
+    padding-right: 15px;
+    width: 60%;
+    font-weight: bolder;
+    grid-area: BotãoCarrinhoCabeçalhoCimaCarrinho;
+}
+.BotãoCarrinhoCabeçalhoCimaProduto {
+    font-size: 15px;
+    grid-area: BotãoCarrinhoCabeçalhoCimaProduto;
+    font-weight: bolder;
+    padding-bottom: 12px;
+}
+.cliente-home{
+    padding-left: 70px;
+    padding-top: 30px;
+}
+.modo-claro-home{
+    padding-left: 70px;
+    padding-top: 30px;
+}
+.icon-cabeçalho-imagem{
+    width: 55%;
+    display: inline-block;
+    display: flex;
+}
+
+/* fim do cabeçalho cima */
+
+/* Inicio Cabeçalho Baixo */
+
+.cabeçalho-baixo{
+    display: flex;
+}
+.div-botão-menu{
+    padding-left: 22px;
+    padding-top: 14px;
+}
+.botão-menu{
+    background-color: red;
+    width: 400px;
+    height: 70px;
+    border-radius: 7px;
+}
+
+/* Popup container */
+.popup {
+    display: inline-block;
+    cursor: pointer;
+    padding-left: 22px;
+    padding-top: 14px;
+  }
+  
+  /* The actual popup (appears on top) */
+    .popuptext {
+    visibility: hidden;
+    width: 20%;
+    background-color: #555;
+    color: #fff;
+    position:  absolute;
+    height: 100%;
+    }
+
+    .logoPopUp{
+        width: 80%;
+        padding-left: 15px;
+        padding-top: 12px;
+    }
+    .PopUpTexto{
+        padding-top: 15px;
+        font-size: 19px;
+        padding-left: 5px;
+    }
+    .PopUpTextoCategorias{
+        font-size: 14px;
+        padding-left: 5px;
+    }
+    .PopUpTextoAjudaeConfigurações{
+        font-size: 14px;
+        padding-left: 5px;
+        padding-top: 15px;
+    }
+
+  /* Toggle this class when clicking on the popup container (hide and show the popup) */
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+  }
+  
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+
+   /*   */    /*  Fim do PopUp  */    /*   */
+
+.botão-menu {
+    background-color: red(0, 175, 0);
+    padding-right: 25px;
+    border-radius: 10px;
+    height: 65px;
+    display: inline-block;
+    display: grid;
+    grid-template-columns: 75px;
+    grid-template-areas:"BotãoCarrinhoCabeçalhoCimaImagem BotãoCarrinhoCabeçalhoCimaCarrinho"
+        "BotãoCarrinhoCabeçalhoCimaImagem BotãoCarrinhoCabeçalhoCimaProduto";
+}
+.BotãoCarrinhoCabeçalhoCima{
+    background-color: green;
+    width: 80px;
+    height: 25px;
+}
+.BotãoMenuCabeçalhoBaixoImagem {
+    padding-left: 50px;
+    padding-top: 18px;
+    width: 40%;
+    grid-area: BotãoCarrinhoCabeçalhoCimaImagem;
+}
+.BotãoMenuCabeçalhoBaixoAcesse {
+    font-size: 15px;
+    padding-left: 70px;
+    padding-top: 12px;
+    padding-right: 15px;
+    width: 60%;
+    font-weight: bold;
+    grid-area: BotãoCarrinhoCabeçalhoCimaCarrinho;
+}
+.BotãoMenuCabeçalhoBaixoDepartamentos {
+    font-size: 22px;
+    grid-area: BotãoCarrinhoCabeçalhoCimaProduto;
+    font-weight: bolder;
+    padding-bottom: 12px;
+    padding-right: 45px;
+}
+.div-inputInicio{
+    padding-left: 30px;
+    padding-top: 25px;
+    width: 80%;
+}
+.pesquisaInicioHome{
+    background-color: rgb(78, 78, 78);
+    height: 45px;
+    width: 95%;
+    border: none;
+    border-radius: 6px;
+}
+::placeholder{
+    color: rgb(173, 173, 173);
+    font-weight: bolder;
+    font-size: 16px;
+    padding-left: 15px;
+}
+
+/* fim do cabeçalho baixo */
+
+
+
+li {
+    display: flex;
+    align-items: center;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000000ea;
+    text-decoration: none;
+    transition: 0.3s;
+}
+button:hover {
+    color: #000000ea;
+    text-decoration: none;
+    transition: 0.3s;
+
+}
+.inputInicio {
+    width: 200px;
+    border-radius: 4px;
+    border-color: black;
+    background-image: url("https://cdn-icons-png.flaticon.com/512/49/49116.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 15px;
+    padding-left: 0px;
+    outline: 0;
+}
+.promoçãoimg {
+    width: 100%;
+
+}
+.produtos {
+    padding-top: 3%;
+    padding-right: 5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: space-around;
+    align-items: center;
+}
+.gabinetes {
+    display: flex;
+    font-size: 80%;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.Info{
+    margin: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+.banner_comprido_img{
+    border-radius: 15px;
+    padding-left: 1%;
+    width: 98%;
+}
+.banners_curtos{
+    display: flex;
+}
+.banner_curto01{
+    border-radius: 15px;
+    width: 48.5%;
+    padding-left: 1%;
+}
+.banner_curto02{
+    border-radius: 15px;
+    width: 48.5%;
+    padding-left: 1%;
+}
+.texto_recomendamos{
+    display: flex;
+    padding-left: 3%;
+}
+.caution_icon{
+    width: 2%;
+}
+.recomendamos_texto{
+    padding-top: 3px;
+    padding-left: 8px;
+    font-weight: bolder;
+}
+.home_recomendados{
+}
+.SSD{
+    width: 22%;
+    padding-left: 2%;
+    display: inline-block;
+}
+.Ryzen5{
+    width: 22%;
+    padding-left: 2%;
+    display: inline-block;
+}
+.GTX1650{
+    width: 22%;
+    padding-left: 2%;
+    display: inline-block;
+}
+.RTX3050{
+    width: 22%;
+    padding-left: 2%;
+    display: inline-block;
+}
+.imagem_produto_recomendado{
+}
+.texto_produto_recomendado{
+    padding-left: 5%;
+}
+.titulo_produto_recomendado{
+    font-size: 15px;
+    padding: 3px 0;
+}
+.preçovelho_produto_recomendado{
+    font-size: 14px;
+    font-weight: bolder;
+    color: red;
+    padding: 2px 0;
+}
+.texto_à_vista_produto_recomendado{
+    font-size: 13px;
+    font-weight: bolder;
+    color: green;
+    padding: 2px 0;
+}
+.preço_à_vista_produto_recomendado{
+    font-size: 24px;
+    font-weight: bolder;
+    color: rgb(0, 182, 0);
+    padding: 2px 0;
+}
+.pix_desconto_produto_recomendado{
+    font-size: 12px;
+    padding: 2px 0;
+}
+.barra_produto_recomendado{
+    height: 2px;
+    width: 45px;
+    background-color: red;
+    margin: 10px 0;
+}
+.preço_parcelado_produto_recomendado{
+    font-size: 19.53109px;
+    font-weight: bolder;
+    color: red;
+    padding: 2px 0;
+}
+.em_até_12x_de_produto_recomendado{
+    font-size: 13px;
+    display: inline-block;
+    padding: 2px 0;
+}
+.preço_parcela_produto_recomendado{
+    font-size: 13px;
+    color: red;
+    font-weight: bolder;
+    display: inline-block;
+    padding: 2px 0;
+}
+.sem_juros_produto_recomendado{
+    font-size: 13px;
+    padding: 2px 0;
+}
+.texto_produtos_novos_e_lançamentos{
+    display: flex;
+    padding-left: 3%;
+}
+.caution_icon{
+    width: 2%;
+}
+.produto_novo_texto{
+    padding-top: 3px;
+    padding-left: 8px;
+    font-weight: bolder;
+}
+
+
+
+
+.texto_ofertas_em_destaque{
+    display: flex;
+    padding-left: 3%;
+}
+.fire_icon{
+    width: 2%;
+}
+.ofertas_em_destaque_texto{
+    padding-top: 3px;
+    padding-left: 8px;
+    font-weight: bolder;
+}
+/* Página inicial acima */
+
+
+
+/* página produto 1 abaixo */
+
+
+/* .carrosselDeImagens {
+    display: flex;
+    flex-direction: column;
+    padding-left: 4%;
+    margin: auto 0;
+    max-width: 150px;
+    display: inline-block;
+    padding-top: 30px;
+} */
+
+.imagemprodutogrande {
+    padding-bottom: 30px;
+    display: inline-block;
+
+}
+
+.titulo {
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    max-width: 50%;
+    vertical-align: top;
+    display: inline-block;
+    justify-content: space-between;
+}
+.nomeProdutoGABINETEDEEPCOOL{
+    font-size: 35px;
+    font-weight: bold;
+    padding-bottom: 15px;
+    padding-top: 25px;
+}
+.disponibilidade {
+    font-size: 11px;
+    padding-top: 4px;
+    color: green;
+    border-top: 1px solid;
+    border-top-color: gray;
+    padding-bottom: 8px;
+    border-bottom: 1px solid;
+    border-bottom-color: gray;
+}
+
+.preço {
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    display: grid;
+    grid-template-columns: 75px;
+    grid-template-areas: "dinheirosimbolo metododepagamento"
+        "dinheirosimbolo númerovalor"
+        "dinheirosimbolo pixdesconto";
+}
+.dinheirosimbolo {
+    padding-top: 18px;
+    width: 60%;
+    grid-area: dinheirosimbolo;
+
+}
+.metododepagamento {
+    font-weight: bold;
+    color: green;
+    border-top-color: gray;
+    grid-area: metododepagamento;
+    padding-bottom: 5px;
+}
+.pagamentodinheiro{
+    color: green;
+    font-size: 15px;
+}
+.dinheirovalor {
+    color: green;
+    grid-area: númerovalor;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-bottom: 5px;
+}
+.pixdesconto {
+    grid-area: pixdesconto;
+    font-size: 13px;
+    font-weight: bold;
+}
+.cartao {
+    padding-top: 5px;
+    margin: 0;
+    display: inline-block;
+    display: grid;
+    grid-template-columns: 75px;
+    grid-template-areas: "cartaosimbolo cartaovalor"
+        "cartaosimbolo cartaoparcelas"
+        "cartaosimbolo cartaojuros";
+}
+.cartaosimbolo {
+    padding-left: 5px;
+    width: 50%;
+    grid-area: cartaosimbolo;
+    padding-top: 38px;
+    border-top: 3px solid;
+    border-color: red;
+}
+.cartaovalor {
+    padding-top: 25px;
+    color: red;
+    grid-area: cartaovalor;
+    font-size: 24px;
+    font-weight: bolder;
+    padding-bottom: 5px;
+}
+.cartaoparcelas {
+    border-top-color: gray;
+    grid-area: cartaoparcelas;
+    font-size: 13px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.juroscartao {
+    grid-area: cartaojuros;
+    font-size: 13px;
+    font-weight: bold;
+}
+.divbotaocomprar {
+    padding-top: 35px;
+    padding-left: 2%;
+}
+.botaocomprar {
+    width: 650px;
+    height: 70px;
+    border-radius: 12px;
+    background-color: rgb(0, 182, 0);
+    border: 0px;
+    color: white;
+    display: inline-block;
+    display: flex;
+}
+.imagemcarrinho {
+    padding-top: 5px;
+    width: 10%;
+    padding-left: 200px;
+}
+.comprar {
+    padding-left: 40px;
+    font-size: 30px;
+}
+.InformaçõesAdicionaisDiv{
+    padding-left: 40%;
+}
+.InformaçõesAdicionaisBarrinha{
+    width: 120px;
+    height: 3px;
+    background-color: red;
+    padding-left: 0;
+    margin-left: 45%;
+    margin-bottom: 15px;
+}
+.AvaliaçõesBarrinhaCima{
+    width: 120px;
+    height: 2px;
+    background-color: red;
+    padding-left: 0;
+    margin-left: 45%;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+.InformaçõesAdicionais{
+    font-size: 26px;
+}
+.especificações {
+    padding-left: 120px;
+    gap: 5px;
+}
+.linha {
+    padding-bottom: 10px;
+    padding-top: 12px;
+    border-bottom: 1px solid;
+    width: 45%;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.esquerda {
+    font-size: 16px;
+}
+
+.direita {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.branco {
+    display: flex;
+    margin-left: 45%;
+    width: 100px;
+    padding-top: 50px;
+    border-bottom: 2px solid red;
+}
+
+.historico-texto {
+    padding-left: 120px;
+    font-size: 25px;
+}
+
+.historico-imagem {
+    width: 1.5%;
+}
+
+.informacoes-atendimento {
+    display: inline-block;
+    display: flex;
+    padding-left: 40px;
+    width: 95%;
+}
+
+.primeiro-bloco-item {
+    width: 60%;
+    padding-top: 25px;
+    padding-left: 0px;
+    display: flex;
+}
+
+.relogio-imagem {
+    width: 45px;
+    height: 45px;
+}
+
+.texto-atendimento {
+    padding-left: 20px;
+}
+
+.telefone-imagem {
+    padding-left: 35px;
+    width: 45px;
+    height: 45px;
+}
+
+.texto-telefone {
+    padding-left: 20px;
+    padding-top: 12px;
+}
+
+.email-imagem {
+    padding-left: 35px;
+    width: 45px;
+    height: 45px;
+}
+
+.texto-email {
+    padding-left: 20px;
+    padding-top: 12px;
+    padding-right: 35px;
+}
+
+.lojafisica {
+    display: flex;
+    width: 45%;
+    background-color: red;
+    color: white;
+    border-radius: 15px;
+    padding-left: 10px;
+    height: 100px;
+}
+
+.casa-imagem {
+    padding-left: 10px;
+    padding-top: 23px;
+    width: 50px;
+    height: 50px;
+    padding-right: 15px;
+}
+
+.texto-loja-fisica {
+    display: flex;
+    height: 40px;
+    padding-left: 0px;
+    padding-right: 25px;
+    border-right: black 2px solid;
+    transform: translateY(80%);
+    font-family: bold;
+}
+
+.endereco-numero-telefone {
+    font-size: 25px;
+    padding-top: 30px;
+    padding-left: 10px;
+    font-size: 30px;
+    font-family: bold;
+}
+
+.endereco-horario {
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+/* Página produto 1 acima */
+
+
+
+/* Página Account abaixo */
+
+.conta-existente {
+    width: 40%;
+}
+
+.cadeado {
+    width: 7%;
+    padding-left: 280px;
+    padding-top: 50px;
+}
+
+.texto-conta-existente1 {
+    padding-bottom: 15px;
+    padding-left: 55px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.texto-conta-existente2 {
+    padding-bottom: 15px;
+    padding-left: 55px;
+    text-align: center;
+}
+
+.InputLogin {
+    display: flex;
+    padding-left: 10%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-email {
+    width: 60%;
+    height: 35px;
+}
+
+.login-senha {
+    width: 60%;
+    height: 35px;
+}
+
+.checkbox-1 {
+    padding-left: 150px;
+    padding-top: 25px;
+}
+
+/* Página Account acima */
+
+
+/* Página Cadastro Abaixo */
+
+.CadastroTudo{
+    display: flex;
+    padding-top: 6%;
+    padding-left: 10%;
+}
+.CadastroFazerLogin{
+    padding-left: 12%;
+}
+.CadastroImagemCadeado{
+    width: 10%;
+    padding-left: 40%;
+}
+.CadastroJáTemUmaConta{
+    align-items: center;
+    padding-left: 28%;
+    padding-top: 2%;
+    font-size: 26px;
+}
+.CadastroInformeSeusDados{
+    font-size: 16px;
+    padding-top: 6%;
+    padding-left: 16%;
+}
+.CadastroEMail{
+    padding-top: 10%;
+    padding-left: 5%;
+    border-width: 15px;
+}
+.CadastroEMailPlaceholder{
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+}
+.CadastroSenha{
+    padding-top: 4%;
+    padding-left: 5%;
+}
+.CadastroSenhaPlaceholder{
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+}
+.CadastroLembrarMeusDados{
+    padding-top: 4%;
+    padding-left: 24%;
+}
+.CadastroAcessarConta{
+    padding-top: 4%;
+    padding-left: 5%;
+}
+.CadastroBotãoAcessarConta{
+    border-radius: 5px;
+    background-color: red;
+    width: 80%;
+    height: 40px;
+}
+.CadastroEsqueciMinhaSenha{
+    color: red;
+    padding-top: 5%;
+    padding-left: 29%;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Fim do lado esquerdo da tela e começo do lado direito da tela */
+
+.CadastroNovoCliente{
+    padding-left: 2%;
+    
+}
+.CadastroImagemNovoCliente{
+    width: 9%;
+    padding-left: 20%;
+    padding-bottom: 4px;
+}
+.CadastroNovoClienteTexto{
+    font-size: 23px;
+    padding-left: 15%;
+}
+.CadastroTextoCriarNovaConta{
+    font-size: 15px;
+    width: 75%;
+    padding-bottom: 40px;
+    padding-top: 35px;
+    
+}
+.CadastroBotãoCadastrarse{
+    background-color: green;
+    border-radius: 5px;
+    width: 70%;
+    height: 45px;
+}
+.CadastroCadastrarseTexto{
+
+}
+/* Inicio PAP UP página cadastro*/
+
+/* Container do PAP UP */
+.papupCadastro {
+    display: inline-block;
+    cursor: pointer;
+    padding-left: 0px;
+    padding-top: 0px;
+    width: 90%;
+  }
+ 
+ /* Pra deixar o conteudo escondido */ 
+.papupCadastro .papuptextCadastro {
+    visibility: hidden;
+    margin: 0 auto;
+    background-color: #555;
+    color: #fff;
+    position: absolute;
+    align-items: left;
+    height: 100%;
+    width: 100%;
+    }
+
+ /* Toggle this class when clicking on the papup container (hide and show the papup) */
+ .papupCadastro .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+  }
+
+  /* Add animation (fade in the papup) */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }    
+/* Página Cadastro Acima */
+.tudocadastro{
+    padding-left: 28%;
+    margin-top: 5%;
+
+}
+.tudotudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.imagemcriarconta{
+    width: 8%;
+    margin-left: 25%;
+}
+.CriarMinhaConta{
+    font-size: 28px;
+    margin-left: 20%;
+}
+.InformeOsSeusDadosAbaixo{
+    font-size: 22px;
+    margin-left: 6%;
+    margin-top: 2%;
+}
+.Div01TudoCadastro{
+    margin-top: 3%;
+}
+.NomeCriarConta{
+    width: 28%;
+    height: 30px;
+    border-radius: 5px;
+    border-color: gray;
+    border-width: 1px;
+    border-style:solid;
+}
+.SobrenomeCriarConta{
+    width: 28%;
+    height: 30px;
+    border-radius: 5px;
+    border-color: gray;
+    border-width: 1px;
+    border-style:solid;
+}
+.Div02TudoCadastro{
+    margin-top: 2%;
+}
+.CPFCriarConta{
+    width: 28%;
+    height: 30px;
+    border-radius: 5px;
+    border-color: gray;
+    border-width: 1px;
+    border-style:solid;
+}
+.RGCriarConta{
+    width: 28%;
+    height: 30px;
+    border-radius: 5px;
+    border-color: gray;
+    border-width: 1px;
+    border-style:solid;
+}
+.E-MailCriarConta{
+    width: 57%;
+    height: 30px;
+    border-radius: 5px;
+    border-color: gray;
+    border-width: 1px;
+    border-style:solid;
+    margin-top: 2%;
+}
+.SenhaCriarConta{
+    width: 57%;
+    height: 30px;
+    border-radius: 5px;
+    border-color: gray;
+    border-width: 1px;
+    border-style:solid;
+    margin-top: 2%;
+}
+.AceitoReceberMarketingOldin{
+    margin-top: 2%;
+}
+.EstouCienteeConcordoComOsTermosDeUso{
+    margin-top: 2%;
+}
+.VoltarParaoLogin{
+    color: red;
+    font-size: 14px;
+    margin-top: 1%;
+}
+.CriarContaTudoCadastro{
+    margin-top: 3%;
+    margin-left: 0%;
+    margin-bottom: 2%;
+    width: 58%;
+    height: 45px;
+    border-radius: 4px;
+    background-color: red;
+}
+.VoltarParaoLogin{
+    margin-left: 24%;
+    color: black;
+}
+
+
+/*carinho*/
+
+.carrinho {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2.title{
+    background-color:#069;
+    width:100%;
+    padding: 20px;
+    text-align: center;
+}
+.carrinho-container{
+    display:flex;
+    margin-top: 10px;
+}
+.produto{
+    width: 33,3;
+    padding: 0 30px;
+}
+.produto img{
+    max-width: 400px;
+}
+.produto a{
+    display:block;
+    width: 100%;
+    padding:10px;
+    color: white;
+    background-color: #5fb382;
+    text-align: center;
+    text-decoration:none;
+}
+.carrinho-item{
+    max-width: 1200px;
+    margin:10px auto;
+}
+.carrinho-item p{
+   font-size:19px;
+   color: black;
+   /* padding-bottom: 2px dotted black; */
+}
+
+/* Página Como Comprar abaixo */
+
+.ComoComprarTudo{
+    margin-left: 3%;
+}
+.ComoComprar{
+    margin-top: 4%;
+    font-size: 35px;
+    font-weight: bold;
+}
+.ParaComprarProdutosEmNossoSite{
+    margin-top: 2%;
+    font-size: 15px;
+}
+.TextoCadastramentoComoComprar{
+    margin-top: 2%;
+    font-size: 19px;
+    color: red;
+    font-weight: bold;
+}
+.ParaEfetuarComprasEmNossaLoja{
+    margin-top: 2%;
+    font-size: 15px;
+
+}
+.TextoCompraComoComprar{
+    margin-top: 4%;
+    font-size: 19px;
+    color: red;
+    font-weight: bold;
+}
+.AposAnalisarOsProdutosDesejados{
+    margin-top: 2%;
+    font-size: 15px;
+
+}
+.DemaisItensDeSeuInteresse{
+    margin-top: 2%;
+    font-size: 15px;
+
+}
+.TextoPagamentoComoComprar{
+    margin-top: 4%;
+    font-size: 19px;
+    color: red;
+    font-weight: bold;
+}
+.ApósPedidoFeitoBastaEscolher{
+    margin-top: 2%;
+    font-size: 15px;
+
+}
+.AposaFinalizaçaoVoceRecebera{
+    margin-top: 2%;
+    font-size: 15px;
+
+}
+.CasoTenhaAlgumaDuvida{
+    margin-top: 2%;
+    font-size: 15px;
+
+}
+
+/* Página Como Comprar Acima */
+
+/* Página Quem Somos Abaixo */
+
+.QuemSomosTudo{
+    margin-top: 4%;
+    margin-left: 2%;
+}
+.QuemSomos{
+    font-size: 32px;
+}
+.FundadaNoAnoDe2007{
+    margin-top: 2%;
+}
+.AlemDoNosso{
+    margin-top: 2%;
+
+}
+.ProcuramosAcimaDeTudo{
+    margin-top: 2%;
+
+}
+.AlemDeNossoSite{
+    margin-top: 2%;
+
+}
+.DadosCadastrais{
+    margin-top: 2%;
+    color: red;
+}
+.RazaoSocial{
+
+
+}
+.CNPJQuemSomos{
+    margin-top: 2%;
+
+}
+.InscricaoEstadual{
+    margin-top: 2%;
+
+}
+.MatrizLojaJoinville{
+    margin-top: 2%;
+    color: red;
+}
+.RuaQuemSomos{
+
+}
+.BairroQuemSomos{
+    margin-top: 2%;
+
+}
+.AtencaoQuemSomos{
+    margin-top: 2%;
+    color: red;
+}
+.horariosQuemSomos{
+    margin-top: 3%;
+    color: red;
+}
+.SegundaaSextaQuemSomos{
+    margin-top: 2%;
+
+}
+.EmailQuemSomos{
+    margin-top: 2%;
+
+}
+.NossosTelefones{
+    margin-top: 2%;
+
+}
+/* Parte direita Loja Fisica abaixo */
+.FiliaLojaFisicaTudo{
+    margin-top: 2%;
+    position: absolute;
+    margin-left: 45%;
+    margin-top: -25%;
+}
+.FiliaLojaFisica{
+    margin-top: 2%;
+    color: red;
+
+}
+.RuaQuemSomosEnderecoFisico{
+
+}
+.BairroQuemSomosfisico{
+    
+}
+.CepQuemSomos{
+
+}
+.JoinvilleScQuemSomosFisico{
+
+}
+.HorariosQuemSomosFisico{
+    margin-top: 2%;
+
+}
+.SegundaaSextaQuemSomosFisico{
+
+}
+.SabadoQuemSomosFisico{
+
+}

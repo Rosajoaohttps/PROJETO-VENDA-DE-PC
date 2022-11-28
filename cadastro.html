@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="./Estilo/home.css" />
+    <title> Oldin</title>
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon" />
+    <script src="script.js"></script>
+</head>
+
+<body class="inicial">
+    <div class="cabeçalho-cima">
+        <div class="div-logo-cabeçalho"><img class="logo-cabeçalho" src="./imagens/logo-pichau-2021.png" alt=""></div>
+           <div class="conta">
+              <img class="contasimbolo" src="./imagens/icon-cabeçalho2.png" alt="">
+              <div class="minhaconta">MINHA CONTA</div>
+              <div class="entrarcadastro">ENTRAR / CADASTRO</div>
+           </div>
+           <div class="home-cabeçalho-atendimetno">
+              <img class="atendimentosimbolo" src="./imagens/iconquestion-removebg-preview.png" alt="">
+              <div class="cabeçalho-atendimento">ATENDIMENTO</div>
+              <div class="cabeçalho-aocliente">AO CLIENTE</div>
+           </div>
+           <div class="home-cabeçalho-modoescuro">
+              <img class="cabeçalho-modoclarosimbolo" src="./imagens/eclipseicon.png" alt="">
+              <div class="cabeçalho-modoclaro1">MODO</div>
+              <div class="cabeçalho-modoclaro2">CLARO</div>
+           </div>
+           <button class="divBotãoCarrinhoCabeçalhoCima">
+              <!-- <button class="BotãoCarrinhoCabeçalhoCima"> -->
+                 <img class="BotãoCarrinhoCabeçalhoCimaImagem" src="./imagens/carrinho.png" alt="">
+                 <div class="BotãoCarrinhoCabeçalhoCimaCarrinho">Carrinho</div>
+                 <div class="BotãoCarrinhoCabeçalhoCimaProduto">0 produtos</div>
+              <!-- </button> -->
+           </button>
+        <br><br><br>
+     </div>
+     <div class="cabeçalho-baixo">
+        <div class="popup" onclick="myFunction()">
+           <span class="popuptext" id="myPopup"> 
+              <img class="logoPopUp" src="./imagens/logo-pichau-2021-dark.png" alt="">
+              <div class="PopUpTexto">
+                 <div class="PopUpTextoCategorias">Categorias</div>
+                 <div class="PopUpTextoHardware PopUpTexto">Hardware</div>
+                 <div class="PopUpTexto" class="PopUpTextoPeriféricos">Periféricos</div>
+                 <div class="PopUpTexto" class="PopUpTextoComputadores">Computadores</div>
+                 <div class="PopUpTexto" class="PopUpTextoKitUpgrade">Kit Upgrade</div>
+                 <div class="PopUpTexto" class="PopUpTextoMonitores">Monitores</div>
+                 <div class="PopUpTexto" class="PopUpTextoCadeiraseMesasGamer">Cadeiras e Mesas Gamer</div>
+                 <div class="PopUpTexto" class="PopUpTextoEletronicos">Eletronicos</div>
+                 <div class="PopUpTexto" class="PopUpTextoNotebooksePortáteis">Notebooks e Portáteis</div>
+                 <div class="PopUpTexto" class="PopUpTextoRedes&Wireless">Redes & Wireless</div>
+                 <div class="PopUpTexto" class="PopUpTextoRealidade Virtual">Realidade Virtual</div>
+                 <div class="PopUpTexto" class="PopUpTextoCasaInteligente">Casa Inteligente</div>
+                 <div class="PopUpTexto" class="PopUpTextoMundoGeek">Mundo Geek</div>
+                 <div class="PopUpTexto" class="PopUpTextoOpenBox">OpenBox</div>
+                 <div class="PopUpTexto" class="PopUpTextoCasaeLazer">Casa e Lazer</div>
+                 <div class="PopUpTexto" class="PopUpTextoVideoGames">Video Games</div>
+           <br>
+                 <div class="PopUpTextoAjudaeConfigurações">Ajuda e Configurações</div>
+                 <div class="PopUpTexto" class="PopUpTextoMinhaConta">Minha Conta</div>
+                 <div class="PopUpTexto" class="PopUpTextoQuemSomos">Quem Somos</div>
+                 <div class="PopUpTexto" class="PopUpTextoAtendimentoAoCliente">Atendimento ao Cliente</div>
+                 <div class="PopUpTexto" class="PopUpTextoComoComprar">Como Comprar</div> 
+              </div>
+           </span>
+              <button class="botão-menu">
+                 <img class="BotãoMenuCabeçalhoBaixoImagem" src="./imagens/menu-aberto.png" alt="">
+                 <div class="BotãoMenuCabeçalhoBaixoAcesse">Acesse todos os</div>
+                 <div class="BotãoMenuCabeçalhoBaixoDepartamentos">DEPARTAMENTOS</div>
+              </button>
+        </div>
+        <div class="div-inputInicio"><input class="pesquisaInicioHome" type="text" placeholder="Digite o que você procura..."></div>
+     </div>
+  </div>
+
+        <!-- Fim do cabeçalho -->        <!-- Fim do cabeçalho -->        <!-- Fim do cabeçalho -->        <!-- Fim do cabeçalho -->
+
+   <div class="CadastroTudo">
+        <div class="CadastroFazerLogin">
+            <img class="CadastroImagemCadeado" src="./imagens/cadeado.png" alt="">
+            <div class="CadastroJáTemUmaConta">Já tem uma conta?</div>
+            <div class="CadastroInformeSeusDados">Informe os seus dados abaixo para acessá-la.</div>
+         <form action="login.php" method="post">
+            <div class="CadastroEMail"><input class="CadastroEMailPlaceholder" type="text" placeholder="E-Mail" name="email"></div>
+            <div class="CadastroSenha"><input class="CadastroSenhaPlaceholder" type="text" placeholder="Senha" name="senha"></div>
+            
+            <div class="CadastroLembrarMeusDados"><input class="CadastroLembrarMeusDadosInput" type="checkbox">   Lembrar meus dados</div>
+            <div class="CadastroAcessarConta">
+            <div class="CadastroAcessarContaTexto">
+               <input type="submit" class="CadastroBotãoAcessarConta" name="acessar" value='Acessar Conta'>
+                  </div>
+            </div>
+            <div class="CadastroEsqueciMinhaSenha">Esqueci Minha Senha</div>
+         </form>
+        </div>
+        <div class="CadastroNovoCliente">
+            <img class="CadastroImagemNovoCliente" src="./imagens/iconsol.png" alt="">
+            <div class="CadastroNovoClienteTexto">Novo Cliente</div>
+            <div class="CadastroTextoCriarNovaConta">Criar uma conta é fácil! Informe seus dados e uma senha para aproveitar todos os beneficios de ter uma conta.</div>
+            <div class="CadastroCadastrar-se">
+      <!-- INICIO DO POPUP -->
+               <div class="papupCadastro">
+                  <a href="CriarConta.php"><button class="CadastroBotãoCadastrarse"  >
+                        <div class="CadastroCadastrarseTexto">Cadastrar-se</div>
+                     </button></a>
+                     
+               </div>
+            </div>
+
+
+
+        </div>
+
+   </div>
+
+
+
+</body>
+<script src="script.js"></script>
+</html>

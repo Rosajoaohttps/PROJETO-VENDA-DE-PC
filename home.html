@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <link rel="stylesheet" type="text/css" href="./Estilo/home.css" />
+   <title> Oldin</title>
+   <link rel="shortcut icon" href="logo.png" type="image/x-icon" />
+   <script src="script.js"></script>
+   <link rel="shortcut icon" href="./imagens/logo.png"  />
+</head>
+
+<body class="inicial">
+   <div class="cabeçalho-cima">
+      <div class="div-logo-cabeçalho"><img class="logo-cabeçalho" src="./imagens/logo-pichau-2021.png" alt=""></div>
+         <div class="conta">
+            <img class="contasimbolo" src="./imagens/icon-cabeçalho2.png" alt="">
+            <div class="minhaconta">MINHA CONTA</div>
+            <div class="entrarcadastro"><a href="cadastro.html">ENTRAR / CADASTRO</a></div>
+         </div>
+         <div class="home-cabeçalho-atendimetno">
+            <img class="atendimentosimbolo" src="./imagens/iconquestion-removebg-preview.png" alt="">
+            <div class="cabeçalho-atendimento">ATENDIMENTO</div>
+            <div class="cabeçalho-aocliente">AO CLIENTE</div>
+         </div>
+         <div class="home-cabeçalho-modoescuro">
+            <img class="cabeçalho-modoclarosimbolo" src="./imagens/eclipseicon.png" alt="">
+            <div class="cabeçalho-modoclaro1">MODO</div>
+            <div class="cabeçalho-modoclaro2">CLARO</div>
+         </div>
+         <button class="divBotãoCarrinhoCabeçalhoCima">
+            <!-- <button class="BotãoCarrinhoCabeçalhoCima"> -->
+               <img class="BotãoCarrinhoCabeçalhoCimaImagem" src="./imagens/carrinho.png" alt="">
+              <a href="carrinho.html"> <div class="BotãoCarrinhoCabeçalhoCimaCarrinho">Carrinho</div></a>
+               <div class="BotãoCarrinhoCabeçalhoCimaProduto">0 produtos</div>
+            <!-- </button> -->
+         </button>
+      <br><br><br>
+   </div>
+   <div class="cabeçalho-baixo">
+      <div class="popup" onclick="myFunction()">
+         <span class="popuptext" id="myPopup"> 
+            <img class="logoPopUp" src="./imagens/logo-pichau-2021-dark.png" alt="">
+            <div class="PopUpTexto">
+               <div class="PopUpTextoCategorias">Categorias</div>
+               <div class="PopUpTextoHardware PopUpTexto">Hardware</div>
+               <div class="PopUpTexto" class="PopUpTextoPeriféricos">Periféricos</div>
+               <div class="PopUpTexto" class="PopUpTextoComputadores">Computadores</div>
+               <div class="PopUpTexto" class="PopUpTextoKitUpgrade">Kit Upgrade</div>
+               <div class="PopUpTexto" class="PopUpTextoMonitores">Monitores</div>
+               <div class="PopUpTexto" class="PopUpTextoCadeiraseMesasGamer">Cadeiras e Mesas Gamer</div>
+               <div class="PopUpTexto" class="PopUpTextoEletronicos">Eletronicos</div>
+               <div class="PopUpTexto" class="PopUpTextoNotebooksePortáteis">Notebooks e Portáteis</div>
+               <div class="PopUpTexto" class="PopUpTextoRedes&Wireless">Redes & Wireless</div>
+               <div class="PopUpTexto" class="PopUpTextoRealidade Virtual">Realidade Virtual</div>
+               <div class="PopUpTexto" class="PopUpTextoCasaInteligente">Casa Inteligente</div>
+               <div class="PopUpTexto" class="PopUpTextoMundoGeek">Mundo Geek</div>
+               <div class="PopUpTexto" class="PopUpTextoOpenBox">OpenBox</div>
+               <div class="PopUpTexto" class="PopUpTextoCasaeLazer">Casa e Lazer</div>
+               <div class="PopUpTexto" class="PopUpTextoVideoGames">Video Games</div>
+         <br>
+               <div class="PopUpTextoAjudaeConfigurações">Ajuda e Configurações</div>
+               <div class="PopUpTexto" class="PopUpTextoMinhaConta">Minha Conta</div>
+               <div class="PopUpTexto" class="PopUpTextoQuemSomos">Quem Somos</div>
+               <div class="PopUpTexto" class="PopUpTextoAtendimentoAoCliente">Atendimento ao Cliente</div>
+               <div class="PopUpTexto" class="PopUpTextoComoComprar">Como Comprar</div> 
+            </div>
+         </span>
+            <button class="botão-menu">
+               <img class="BotãoMenuCabeçalhoBaixoImagem" src="./imagens/menu-aberto.png" alt="">
+               <div class="BotãoMenuCabeçalhoBaixoAcesse">Acesse todos os</div>
+               <div class="BotãoMenuCabeçalhoBaixoDepartamentos">DEPARTAMENTOS</div>
+            </button>
+      </div>
+      <div class="div-inputInicio"><input class="pesquisaInicioHome" type="text" placeholder="Digite o que você procura..."></div>
+   </div>
+</div>
+
+   <div class="promoção">
+      <img class="promoçãoimg" src="./imagens/banner_inicial.png">
+   </div>
+   <br>
+   <div class="banner_comprido">
+      <img class="banner_comprido_img" src="./imagens/banner_home_grande.png" alt="">
+   </div>
+   <br>
+   <div class="banners_curtos">
+      <img class="banner_curto01" src="./imagens/banner_home_01.png" alt="">
+      <img class="banner_curto02" src="./imagens/banner_home_02.png" alt="">
+   </div>
+
+   <br>
+   <div class="texto_recomendamos">
+      <img class="caution_icon" src="./imagens/caution_icon.png" alt="">
+      <div class="recomendamos_texto"> RECOMENDAMOS PARA VOCÊ </div>
+   </div>
+   <br>
+
+   <div class="home_recomendados">
+      <div class="SSD">
+         <div class="imagem_produto_recomendado"><img src="./imagens/ssd_480gb.jpg" alt=""></div>
+         <div class="texto_produto_recomendado">
+            <div class="titulo_produto_recomendado">SSD TEAM GROUP GX1 480GB 2.5" SATA T253X1480G0C10153X2128G01748C101, 6GB/S</div>
+            <div class="preçovelho_produto_recomendado">de <s>R$420,35</s> por:</div>
+            <div class="texto_à_vista_produto_recomendado">à vista</div>
+            <div class="preço_à_vista_produto_recomendado">R$239,99</div>
+            <div class="pix_desconto_produto_recomendado">no PIX com 12% de desconto</div>
+            <div class="barra_produto_recomendado"></div>
+            <div class="preço_parcelado_produto_recomendado">R$ 272,72</div>
+            <div class="em_até_12x_de_produto_recomendado">em até 12x de </div>
+            <div class="preço_parcela_produto_recomendado">22,73</div>
+            <div class="sem_juros_produto_recomendado">sem juros no cartão</div>
+         </div>
+      </div>
+      
+      <div class="Ryzen5">
+         <div class="imagem_produto_recomendado"><img src="./imagens/r5_5600.jpg" alt=""></div>
+         <div class="texto_produto_recomendado">
+            <div class="titulo_produto_recomendado">PROCESSADOR AMD RYZEN 5 5600G, 6-CORE, 12-THREADS, 3.9GHZ (4.4GHZ TURBO)</div>
+            <div class="preçovelho_produto_recomendado">de <s>R$2.385,23 </s> por:</div>
+            <div class="texto_à_vista_produto_recomendado">à vista</div>
+            <div class="preço_à_vista_produto_recomendado">R$999,00</div>
+            <div class="pix_desconto_produto_recomendado">no PIX com 12% de desconto</div>
+            <div class="barra_produto_recomendado"></div>
+            <div class="preço_parcelado_produto_recomendado">R$ 1.135,23</div>
+            <div class="em_até_12x_de_produto_recomendado">em até 12x de </div>
+            <div class="preço_parcela_produto_recomendado">94,60</div>
+            <div class="sem_juros_produto_recomendado">sem juros no cartão</div>
+         </div>
+      </div>
+      
+      <div class="GTX1650">
+         <div class="imagem_produto_recomendado"><img src="./imagens/GTX1650.jpg" alt=""></div>
+         <div class="texto_produto_recomendado">
+            <div class="titulo_produto_recomendado">PLACA DE VIDEO MSI GEFORCE GTX 1650 VENTUS XS OC, 4GB, GDDR5, 128-BIT, 912-V809-3060</div>
+            <div class="preçovelho_produto_recomendado">de <s>R$2.510,23</s> por:</div>
+            <div class="texto_à_vista_produto_recomendado">à vista</div>
+            <div class="preço_à_vista_produto_recomendado">R$1.109,99</div>
+            <div class="pix_desconto_produto_recomendado">no PIX com 12% de desconto</div>
+            <div class="barra_produto_recomendado"></div>
+            <div class="preço_parcelado_produto_recomendado">R$ 1.261,35</div>
+            <div class="em_até_12x_de_produto_recomendado">em até 12x de </div>
+            <div class="preço_parcela_produto_recomendado">105,11</div>
+            <div class="sem_juros_produto_recomendado">sem juros no cartão</div>
+         </div>
+      </div>
+
+      <div class="RTX3050">
+         <div class="imagem_produto_recomendado"><img src="./imagens/rtx_3050.jpg" alt=""></div>
+         <div class="texto_produto_recomendado">
+            <div class="titulo_produto_recomendado">PLACA DE VIDEO MSI GEFORCE RTX 3050 VENTUS 2X, 8GB, GDDR6, 128-BIT, 912-V397-448</div>
+            <div class="preçovelho_produto_recomendado">de <s>R$3.522,61</s> por:</div>
+            <div class="texto_à_vista_produto_recomendado">à vista</div>
+            <div class="preço_à_vista_produto_recomendado">R$1899,99</div>
+            <div class="pix_desconto_produto_recomendado">no PIX com 12% de desconto</div>
+            <div class="barra_produto_recomendado"></div>
+            <div class="preço_parcelado_produto_recomendado">R$ 2159,08</div>
+            <div class="em_até_12x_de_produto_recomendado">em até 12x de </div>
+            <div class="preço_parcela_produto_recomendado">179,98</div>
+            <div class="sem_juros_produto_recomendado">sem juros no cartão</div>
+         </div>
+      </div>
+   </div>
+<br><br><br>
+<div class="texto_produtos_novos_e_lançamentos">
+   <img class="caution_icon" src="./imagens/caution_icon.png" alt="">
+   <div class="produto_novo_texto"> PRODUTOS NOVOS E LANÇAMENTOS </div>
+</div>
+
+<br>
+
+<div class="home_recomendados">
+   <div class="SSD">
+      <div class="imagem_produto_recomendado"><img src="./imagens/cadeira_copa.jpg" alt=""></div>
+      <div class="texto_produto_recomendado">
+         <div class="titulo_produto_recomendado">CADEIRA GAMER DELUX COPA DO MUNDO CATAR DX-3000 BRLX BRASIL, AZUL, VERDE E AMARELO, CP-CH-9015</div>
+         <div class="preçovelho_produto_recomendado">de <s>R$3.035,21</s> por:</div>
+         <div class="texto_à_vista_produto_recomendado">à vista</div>
+         <div class="preço_à_vista_produto_recomendado">R$1.452,74</div>
+         <div class="pix_desconto_produto_recomendado">no PIX com 12% de desconto</div>
+         <div class="barra_produto_recomendado"></div>
+         <div class="preço_parcelado_produto_recomendado">R$ 1.650,84</div>
+         <div class="em_até_12x_de_produto_recomendado">em até 12x de </div>
+         <div class="preço_parcela_produto_recomendado">137,57</div>
+         <div class="sem_juros_produto_recomendado">sem juros no cartão</div>
+      </div>
+   </div>
+   
+   <div class="Ryzen5">
+      <div class="imagem_produto_recomendado"><img src="./imagens/mouse_vertical_logitech.jpg" alt=""></div>
+      <div class="texto_produto_recomendado">
+         <div class="titulo_produto_recomendado">MOUSE VERTICAL ERGONOMICO LOGITECH LIFT, BLUETOOTH, 4000DPI, 6 BOTOES, PRETO, 910-006466</div>
+         <div class="preçovelho_produto_recomendado">de <s>R$2.385,23 </s> por:</div>
+         <div class="texto_à_vista_produto_recomendado">à vista</div>
+         <div class="preço_à_vista_produto_recomendado">R$379,90</div>
+         <div class="pix_desconto_produto_recomendado">no PIX com 12% de desconto</div>
+         <div class="barra_produto_recomendado"></div>
+         <div class="preço_parcelado_produto_recomendado">R$ 431,70</div>
+         <div class="em_até_12x_de_produto_recomendado">em até 12x de </div>
+         <div class="preço_parcela_produto_recomendado">35,98</div>
+         <div class="sem_juros_produto_recomendado">sem juros no cartão</div>
+      </div>
+   </div>
+   
+   <div class="GTX1650">
+      <div class="imagem_produto_recomendado"><img src="./imagens/cadeira_gamer_copa_rosa.jpg" alt=""></div>
+      <div class="texto_produto_recomendado">
+         <div class="titulo_produto_recomendado">CADEIRA GAMER DELUX COPA DO MUNDO CATAR DX-3000 LX2, VERMELHO E BRANCO, CP-CH-9013</div>
+         <div class="preçovelho_produto_recomendado">de <s>R$3.035,21 </s> por:</div>
+         <div class="texto_à_vista_produto_recomendado">à vista</div>
+         <div class="preço_à_vista_produto_recomendado">R$1.452,74</div>
+         <div class="pix_desconto_produto_recomendado">no PIX com 12% de desconto</div>
+         <div class="barra_produto_recomendado"></div>
+         <div class="preço_parcelado_produto_recomendado">R$ 1.650,84</div>
+         <div class="em_até_12x_de_produto_recomendado">em até 12x de </div>
+         <div class="preço_parcela_produto_recomendado">137,57</div>
+         <div class="sem_juros_produto_recomendado">sem juros no cartão</div>
+      </div>
+   </div>
+
+   <div class="RTX3050">
+      <div class="imagem_produto_recomendado"><img src="./imagens/watercooler_home.jpg" alt=""></div>
+      <div class="texto_produto_recomendado">
+         <div class="titulo_produto_recomendado">WATER COOLER DEEPCOOL CASTLE 240EX A-RGB, 240MM, PRETO, DP-GS-H12W-CSL240EX-AR</div>
+         <div class="preçovelho_produto_recomendado">de <s>R$908,98 </s> por:</div>
+         <div class="texto_à_vista_produto_recomendado">à vista</div>
+         <div class="preço_à_vista_produto_recomendado">R$579,90</div>
+         <div class="pix_desconto_produto_recomendado">no PIX com 12% de desconto</div>
+         <div class="barra_produto_recomendado"></div>
+         <div class="preço_parcelado_produto_recomendado">R$ 658,98</div>
+         <div class="em_até_12x_de_produto_recomendado">em até 12x de </div>
+         <div class="preço_parcela_produto_recomendado">54,92</div>
+         <div class="sem_juros_produto_recomendado">sem juros no cartão</div>
+      </div>
+   </div>
+</div>
+
+<br><br>
+<div class="texto_ofertas_em_destaque">
+   <img class="fire_icon" src="./imagens/fire.png" alt="">
+   <div class="ofertas_em_destaque_texto"> OFERTAS EM DESTAQUE </div>
+</div>
+<br>
+
+<div class="home_recomendados">
+   <div class="SSD">
+      <div class="imagem_produto_recomendado"><img src="./imagens/ssd_480gb.jpg" alt=""></div>
+      <div class="texto_produto_recomendado">
+         <div class="titulo_produto_recomendado">SSD TEAM GROUP GX1 480GB 2.5" SATA T253X1480G0C10153X2128G01748C101, 6GB/S</div>
+         <div class="preçovelho_produto_recomendado">de <s>R$420,35</s> por:</div>
+         <div class="texto_à_vista_produto_recomendado">à vista</div>
+         <div class="preço_à_vista_produto_recomendado">R$239,99</div>
+         <div class="pix_desconto_produto_recomendado">no PIX com 12% de desconto</div>
+         <div class="barra_produto_recomendado"></div>
+         <div class="preço_parcelado_produto_recomendado">R$ 272,72</div>
+         <div class="em_até_12x_de_produto_recomendado">em até 12x de </div>
+         <div class="preço_parcela_produto_recomendado">22,73</div>
+         <div class="sem_juros_produto_recomendado">sem juros no cartão</div>
+      </div>
+   </div>
+   
+   <div class="Ryzen5">
+      <div class="imagem_produto_recomendado"><img src="./imagens/r5_5600.jpg" alt=""></div>
+      <div class="texto_produto_recomendado">
+         <div class="titulo_produto_recomendado">PROCESSADOR AMD RYZEN 5 5600G, 6-CORE, 12-THREADS, 3.9GHZ (4.4GHZ TURBO)</div>
+         <div class="preçovelho_produto_recomendado">de <s>R$2.385,23 </s> por:</div>
+         <div class="texto_à_vista_produto_recomendado">à vista</div>
+         <div class="preço_à_vista_produto_recomendado">R$999,00</div>
+         <div class="pix_desconto_produto_recomendado">no PIX com 12% de desconto</div>
+         <div class="barra_produto_recomendado"></div>
+         <div class="preço_parcelado_produto_recomendado">R$ 1.135,23</div>
+         <div class="em_até_12x_de_produto_recomendado">em até 12x de </div>
+         <div class="preço_parcela_produto_recomendado">94,60</div>
+         <div class="sem_juros_produto_recomendado">sem juros no cartão</div>
+      </div>
+   </div>
+   
+   <div class="GTX1650">
+      <div class="imagem_produto_recomendado"><img src="./imagens/GTX1650.jpg" alt=""></div>
+      <div class="texto_produto_recomendado">
+         <div class="titulo_produto_recomendado">PLACA DE VIDEO MSI GEFORCE GTX 1650 VENTUS XS OC, 4GB, GDDR5, 128-BIT, 912-V809-3060</div>
+         <div class="preçovelho_produto_recomendado">de <s>R$2.510,23</s> por:</div>
+         <div class="texto_à_vista_produto_recomendado">à vista</div>
+         <div class="preço_à_vista_produto_recomendado">R$1.109,99</div>
+         <div class="pix_desconto_produto_recomendado">no PIX com 12% de desconto</div>
+         <div class="barra_produto_recomendado"></div>
+         <div class="preço_parcelado_produto_recomendado">R$ 1.261,35</div>
+         <div class="em_até_12x_de_produto_recomendado">em até 12x de </div>
+         <div class="preço_parcela_produto_recomendado">105,11</div>
+         <div class="sem_juros_produto_recomendado">sem juros no cartão</div>
+      </div>
+   </div>
+
+   <div class="RTX3050">
+      <div class="imagem_produto_recomendado"><img src="./imagens/rtx_3050.jpg" alt=""></div>
+      <div class="texto_produto_recomendado">
+         <div class="titulo_produto_recomendado">PLACA DE VIDEO MSI GEFORCE RTX 3050 VENTUS 2X, 8GB, GDDR6, 128-BIT, 912-V397-448</div>
+         <div class="preçovelho_produto_recomendado">de <s>R$3.522,61</s> por:</div>
+         <div class="texto_à_vista_produto_recomendado">à vista</div>
+         <div class="preço_à_vista_produto_recomendado">R$1899,99</div>
+         <div class="pix_desconto_produto_recomendado">no PIX com 12% de desconto</div>
+         <div class="barra_produto_recomendado"></div>
+         <div class="preço_parcelado_produto_recomendado">R$ 2159,08</div>
+         <div class="em_até_12x_de_produto_recomendado">em até 12x de </div>
+         <div class="preço_parcela_produto_recomendado">179,98</div>
+         <div class="sem_juros_produto_recomendado">sem juros no cartão</div>
+      </div>
+   </div>
+</div>
+<br><br><br>
+<div class="home_recomendados">
+   <div class="SSD">
+      <div class="imagem_produto_recomendado"><img src="./imagens/ssd_480gb.jpg" alt=""></div>
+      <div class="texto_produto_recomendado">
+         <div class="titulo_produto_recomendado">SSD TEAM GROUP GX1 480GB 2.5" SATA T253X1480G0C10153X2128G01748C101, 6GB/S</div>
+         <div class="preçovelho_produto_recomendado">de <s>R$420,35</s> por:</div>
+         <div class="texto_à_vista_produto_recomendado">à vista</div>
+         <div class="preço_à_vista_produto_recomendado">R$239,99</div>
+         <div class="pix_desconto_produto_recomendado">no PIX com 12% de desconto</div>
+         <div class="barra_produto_recomendado"></div>
+         <div class="preço_parcelado_produto_recomendado">R$ 272,72</div>
+         <div class="em_até_12x_de_produto_recomendado">em até 12x de </div>
+         <div class="preço_parcela_produto_recomendado">22,73</div>
+         <div class="sem_juros_produto_recomendado">sem juros no cartão</div>
+      </div>
+   </div>
+   
+   <div class="Ryzen5">
+      <div class="imagem_produto_recomendado"><img src="./imagens/r5_5600.jpg" alt=""></div>
+      <div class="texto_produto_recomendado">
+         <div class="titulo_produto_recomendado">PROCESSADOR AMD RYZEN 5 5600G, 6-CORE, 12-THREADS, 3.9GHZ (4.4GHZ TURBO)</div>
+         <div class="preçovelho_produto_recomendado">de <s>R$2.385,23 </s> por:</div>
+         <div class="texto_à_vista_produto_recomendado">à vista</div>
+         <div class="preço_à_vista_produto_recomendado">R$999,00</div>
+         <div class="pix_desconto_produto_recomendado">no PIX com 12% de desconto</div>
+         <div class="barra_produto_recomendado"></div>
+         <div class="preço_parcelado_produto_recomendado">R$ 1.135,23</div>
+         <div class="em_até_12x_de_produto_recomendado">em até 12x de </div>
+         <div class="preço_parcela_produto_recomendado">94,60</div>
+         <div class="sem_juros_produto_recomendado">sem juros no cartão</div>
+      </div>
+   </div>
+   
+   <div class="GTX1650">
+      <div class="imagem_produto_recomendado"><img src="./imagens/GTX1650.jpg" alt=""></div>
+      <div class="texto_produto_recomendado">
+         <div class="titulo_produto_recomendado">PLACA DE VIDEO MSI GEFORCE GTX 1650 VENTUS XS OC, 4GB, GDDR5, 128-BIT, 912-V809-3060</div>
+         <div class="preçovelho_produto_recomendado">de <s>R$2.510,23</s> por:</div>
+         <div class="texto_à_vista_produto_recomendado">à vista</div>
+         <div class="preço_à_vista_produto_recomendado">R$1.109,99</div>
+         <div class="pix_desconto_produto_recomendado">no PIX com 12% de desconto</div>
+         <div class="barra_produto_recomendado"></div>
+         <div class="preço_parcelado_produto_recomendado">R$ 1.261,35</div>
+         <div class="em_até_12x_de_produto_recomendado">em até 12x de </div>
+         <div class="preço_parcela_produto_recomendado">105,11</div>
+         <div class="sem_juros_produto_recomendado">sem juros no cartão</div>
+      </div>
+   </div>
+
+   <div class="RTX3050">
+      <div class="imagem_produto_recomendado"><img src="./imagens/rtx_3050.jpg" alt=""></div>
+      <div class="texto_produto_recomendado">
+         <div class="titulo_produto_recomendado">PLACA DE VIDEO MSI GEFORCE RTX 3050 VENTUS 2X, 8GB, GDDR6, 128-BIT, 912-V397-448</div>
+         <div class="preçovelho_produto_recomendado">de <s>R$3.522,61</s> por:</div>
+         <div class="texto_à_vista_produto_recomendado">à vista</div>
+         <div class="preço_à_vista_produto_recomendado">R$1899,99</div>
+         <div class="pix_desconto_produto_recomendado">no PIX com 12% de desconto</div>
+         <div class="barra_produto_recomendado"></div>
+         <div class="preço_parcelado_produto_recomendado">R$ 2159,08</div>
+         <div class="em_até_12x_de_produto_recomendado">em até 12x de </div>
+         <div class="preço_parcela_produto_recomendado">179,98</div>
+         <div class="sem_juros_produto_recomendado">sem juros no cartão</div>
+      </div>
+   </div>
+</div>
+<br><br><br>
+<div class="home_recomendados">
+   <div class="SSD">
+      <div class="imagem_produto_recomendado"><img src="./imagens/ssd_480gb.jpg" alt=""></div>
+      <div class="texto_produto_recomendado">
+         <div class="titulo_produto_recomendado">SSD TEAM GROUP GX1 480GB 2.5" SATA T253X1480G0C10153X2128G01748C101, 6GB/S</div>
+         <div class="preçovelho_produto_recomendado">de <s>R$420,35</s> por:</div>
+         <div class="texto_à_vista_produto_recomendado">à vista</div>
+         <div class="preço_à_vista_produto_recomendado">R$239,99</div>
+         <div class="pix_desconto_produto_recomendado">no PIX com 12% de desconto</div>
+         <div class="barra_produto_recomendado"></div>
+         <div class="preço_parcelado_produto_recomendado">R$ 272,72</div>
+         <div class="em_até_12x_de_produto_recomendado">em até 12x de </div>
+         <div class="preço_parcela_produto_recomendado">22,73</div>
+         <div class="sem_juros_produto_recomendado">sem juros no cartão</div>
+      </div>
+   </div>
+   
+   <div class="Ryzen5">
+      <div class="imagem_produto_recomendado"><img src="./imagens/r5_5600.jpg" alt=""></div>
+      <div class="texto_produto_recomendado">
+         <div class="titulo_produto_recomendado">PROCESSADOR AMD RYZEN 5 5600G, 6-CORE, 12-THREADS, 3.9GHZ (4.4GHZ TURBO)</div>
+         <div class="preçovelho_produto_recomendado">de <s>R$2.385,23 </s> por:</div>
+         <div class="texto_à_vista_produto_recomendado">à vista</div>
+         <div class="preço_à_vista_produto_recomendado">R$999,00</div>
+         <div class="pix_desconto_produto_recomendado">no PIX com 12% de desconto</div>
+         <div class="barra_produto_recomendado"></div>
+         <div class="preço_parcelado_produto_recomendado">R$ 1.135,23</div>
+         <div class="em_até_12x_de_produto_recomendado">em até 12x de </div>
+         <div class="preço_parcela_produto_recomendado">94,60</div>
+         <div class="sem_juros_produto_recomendado">sem juros no cartão</div>
+      </div>
+   </div>
+   
+   <div class="GTX1650">
+      <div class="imagem_produto_recomendado"><img src="./imagens/GTX1650.jpg" alt=""></div>
+      <div class="texto_produto_recomendado">
+         <div class="titulo_produto_recomendado">PLACA DE VIDEO MSI GEFORCE GTX 1650 VENTUS XS OC, 4GB, GDDR5, 128-BIT, 912-V809-3060</div>
+         <div class="preçovelho_produto_recomendado">de <s>R$2.510,23</s> por:</div>
+         <div class="texto_à_vista_produto_recomendado">à vista</div>
+         <div class="preço_à_vista_produto_recomendado">R$1.109,99</div>
+         <div class="pix_desconto_produto_recomendado">no PIX com 12% de desconto</div>
+         <div class="barra_produto_recomendado"></div>
+         <div class="preço_parcelado_produto_recomendado">R$ 1.261,35</div>
+         <div class="em_até_12x_de_produto_recomendado">em até 12x de </div>
+         <div class="preço_parcela_produto_recomendado">105,11</div>
+         <div class="sem_juros_produto_recomendado">sem juros no cartão</div>
+      </div>
+   </div>
+
+   <div class="RTX3050">
+      <div class="imagem_produto_recomendado"><img src="./imagens/rtx_3050.jpg" alt=""></div>
+      <div class="texto_produto_recomendado">
+         <div class="titulo_produto_recomendado">PLACA DE VIDEO MSI GEFORCE RTX 3050 VENTUS 2X, 8GB, GDDR6, 128-BIT, 912-V397-448</div>
+         <div class="preçovelho_produto_recomendado">de <s>R$3.522,61</s> por:</div>
+         <div class="texto_à_vista_produto_recomendado">à vista</div>
+         <div class="preço_à_vista_produto_recomendado">R$1899,99</div>
+         <div class="pix_desconto_produto_recomendado">no PIX com 12% de desconto</div>
+         <div class="barra_produto_recomendado"></div>
+         <div class="preço_parcelado_produto_recomendado">R$ 2159,08</div>
+         <div class="em_até_12x_de_produto_recomendado">em até 12x de </div>
+         <div class="preço_parcela_produto_recomendado">179,98</div>
+         <div class="sem_juros_produto_recomendado">sem juros no cartão</div>
+      </div>
+   </div>
+</div>
+<br><br><br>
+<div class="home_recomendados">
+   <div class="SSD">
+      <div class="imagem_produto_recomendado"><img src="./imagens/ssd_480gb.jpg" alt=""></div>
+      <div class="texto_produto_recomendado">
+         <div class="titulo_produto_recomendado">SSD TEAM GROUP GX1 480GB 2.5" SATA T253X1480G0C10153X2128G01748C101, 6GB/S</div>
+         <div class="preçovelho_produto_recomendado">de <s>R$420,35</s> por:</div>
+         <div class="texto_à_vista_produto_recomendado">à vista</div>
+         <div class="preço_à_vista_produto_recomendado">R$239,99</div>
+         <div class="pix_desconto_produto_recomendado">no PIX com 12% de desconto</div>
+         <div class="barra_produto_recomendado"></div>
+         <div class="preço_parcelado_produto_recomendado">R$ 272,72</div>
+         <div class="em_até_12x_de_produto_recomendado">em até 12x de </div>
+         <div class="preço_parcela_produto_recomendado">22,73</div>
+         <div class="sem_juros_produto_recomendado">sem juros no cartão</div>
+      </div>
+   </div>
+   
+   <div class="Ryzen5">
+      <div class="imagem_produto_recomendado"><img src="./imagens/r5_5600.jpg" alt=""></div>
+      <div class="texto_produto_recomendado">
+         <div class="titulo_produto_recomendado">PROCESSADOR AMD RYZEN 5 5600G, 6-CORE, 12-THREADS, 3.9GHZ (4.4GHZ TURBO)</div>
+         <div class="preçovelho_produto_recomendado">de <s>R$2.385,23 </s> por:</div>
+         <div class="texto_à_vista_produto_recomendado">à vista</div>
+         <div class="preço_à_vista_produto_recomendado">R$999,00</div>
+         <div class="pix_desconto_produto_recomendado">no PIX com 12% de desconto</div>
+         <div class="barra_produto_recomendado"></div>
+         <div class="preço_parcelado_produto_recomendado">R$ 1.135,23</div>
+         <div class="em_até_12x_de_produto_recomendado">em até 12x de </div>
+         <div class="preço_parcela_produto_recomendado">94,60</div>
+         <div class="sem_juros_produto_recomendado">sem juros no cartão</div>
+      </div>
+   </div>
+   
+   <div class="GTX1650">
+      <div class="imagem_produto_recomendado"><img src="./imagens/GTX1650.jpg" alt=""></div>
+      <div class="texto_produto_recomendado">
+         <div class="titulo_produto_recomendado">PLACA DE VIDEO MSI GEFORCE GTX 1650 VENTUS XS OC, 4GB, GDDR5, 128-BIT, 912-V809-3060</div>
+         <div class="preçovelho_produto_recomendado">de <s>R$2.510,23</s> por:</div>
+         <div class="texto_à_vista_produto_recomendado">à vista</div>
+         <div class="preço_à_vista_produto_recomendado">R$1.109,99</div>
+         <div class="pix_desconto_produto_recomendado">no PIX com 12% de desconto</div>
+         <div class="barra_produto_recomendado"></div>
+         <div class="preço_parcelado_produto_recomendado">R$ 1.261,35</div>
+         <div class="em_até_12x_de_produto_recomendado">em até 12x de </div>
+         <div class="preço_parcela_produto_recomendado">105,11</div>
+         <div class="sem_juros_produto_recomendado">sem juros no cartão</div>
+      </div>
+   </div>
+
+   <div class="RTX3050">
+      <div class="imagem_produto_recomendado"><img src="./imagens/rtx_3050.jpg" alt=""></div>
+      <div class="texto_produto_recomendado">
+         <div class="titulo_produto_recomendado">PLACA DE VIDEO MSI GEFORCE RTX 3050 VENTUS 2X, 8GB, GDDR6, 128-BIT, 912-V397-448</div>
+         <div class="preçovelho_produto_recomendado">de <s>R$3.522,61</s> por:</div>
+         <div class="texto_à_vista_produto_recomendado">à vista</div>
+         <div class="preço_à_vista_produto_recomendado">R$1899,99</div>
+         <div class="pix_desconto_produto_recomendado">no PIX com 12% de desconto</div>
+         <div class="barra_produto_recomendado"></div>
+         <div class="preço_parcelado_produto_recomendado">R$ 2159,08</div>
+         <div class="em_até_12x_de_produto_recomendado">em até 12x de </div>
+         <div class="preço_parcela_produto_recomendado">179,98</div>
+         <div class="sem_juros_produto_recomendado">sem juros no cartão</div>
+      </div>
+   </div>
+</div>
+<br><br><br>
+<div class="home_recomendados">
+   <div class="SSD">
+      <div class="imagem_produto_recomendado"><img src="./imagens/ssd_480gb.jpg" alt=""></div>
+      <div class="texto_produto_recomendado">
+         <div class="titulo_produto_recomendado">SSD TEAM GROUP GX1 480GB 2.5" SATA T253X1480G0C10153X2128G01748C101, 6GB/S</div>
+         <div class="preçovelho_produto_recomendado">de <s>R$420,35</s> por:</div>
+         <div class="texto_à_vista_produto_recomendado">à vista</div>
+         <div class="preço_à_vista_produto_recomendado">R$239,99</div>
+         <div class="pix_desconto_produto_recomendado">no PIX com 12% de desconto</div>
+         <div class="barra_produto_recomendado"></div>
+         <div class="preço_parcelado_produto_recomendado">R$ 272,72</div>
+         <div class="em_até_12x_de_produto_recomendado">em até 12x de </div>
+         <div class="preço_parcela_produto_recomendado">22,73</div>
+         <div class="sem_juros_produto_recomendado">sem juros no cartão</div>
+      </div>
+   </div>
+   
+   <div class="Ryzen5">
+      <div class="imagem_produto_recomendado"><img src="./imagens/r5_5600.jpg" alt=""></div>
+      <div class="texto_produto_recomendado">
+         <div class="titulo_produto_recomendado">PROCESSADOR AMD RYZEN 5 5600G, 6-CORE, 12-THREADS, 3.9GHZ (4.4GHZ TURBO)</div>
+         <div class="preçovelho_produto_recomendado">de <s>R$2.385,23 </s> por:</div>
+         <div class="texto_à_vista_produto_recomendado">à vista</div>
+         <div class="preço_à_vista_produto_recomendado">R$999,00</div>
+         <div class="pix_desconto_produto_recomendado">no PIX com 12% de desconto</div>
+         <div class="barra_produto_recomendado"></div>
+         <div class="preço_parcelado_produto_recomendado">R$ 1.135,23</div>
+         <div class="em_até_12x_de_produto_recomendado">em até 12x de </div>
+         <div class="preço_parcela_produto_recomendado">94,60</div>
+         <div class="sem_juros_produto_recomendado">sem juros no cartão</div>
+      </div>
+   </div>
+   
+   <div class="GTX1650">
+      <div class="imagem_produto_recomendado"><img src="./imagens/GTX1650.jpg" alt=""></div>
+      <div class="texto_produto_recomendado">
+         <div class="titulo_produto_recomendado">PLACA DE VIDEO MSI GEFORCE GTX 1650 VENTUS XS OC, 4GB, GDDR5, 128-BIT, 912-V809-3060</div>
+         <div class="preçovelho_produto_recomendado">de <s>R$2.510,23</s> por:</div>
+         <div class="texto_à_vista_produto_recomendado">à vista</div>
+         <div class="preço_à_vista_produto_recomendado">R$1.109,99</div>
+         <div class="pix_desconto_produto_recomendado">no PIX com 12% de desconto</div>
+         <div class="barra_produto_recomendado"></div>
+         <div class="preço_parcelado_produto_recomendado">R$ 1.261,35</div>
+         <div class="em_até_12x_de_produto_recomendado">em até 12x de </div>
+         <div class="preço_parcela_produto_recomendado">105,11</div>
+         <div class="sem_juros_produto_recomendado">sem juros no cartão</div>
+      </div>
+   </div>
+
+   <div class="RTX3050">
+      <div class="imagem_produto_recomendado"><img src="./imagens/rtx_3050.jpg" alt=""></div>
+      <div class="texto_produto_recomendado">
+         <div class="titulo_produto_recomendado">PLACA DE VIDEO MSI GEFORCE RTX 3050 VENTUS 2X, 8GB, GDDR6, 128-BIT, 912-V397-448</div>
+         <div class="preçovelho_produto_recomendado">de <s>R$3.522,61</s> por:</div>
+         <div class="texto_à_vista_produto_recomendado">à vista</div>
+         <div class="preço_à_vista_produto_recomendado">R$1899,99</div>
+         <div class="pix_desconto_produto_recomendado">no PIX com 12% de desconto</div>
+         <div class="barra_produto_recomendado"></div>
+         <div class="preço_parcelado_produto_recomendado">R$ 2159,08</div>
+         <div class="em_até_12x_de_produto_recomendado">em até 12x de </div>
+         <div class="preço_parcela_produto_recomendado">179,98</div>
+         <div class="sem_juros_produto_recomendado">sem juros no cartão</div>
+      </div>
+   </div>
+</div>
+
+
+
+
+
+
+<br><br>
+
+
+
+
+
+
+
+
+
+
+   <!-- <div class="produtosgeral">
+      <ul class="produtos">
+         <li>
+            <a href="./produtos/produto1.html"><img src="./imagens/gabinete1.jpg" width="210px" height="210px"></a>
+         </li>
+         <li>
+            <a href="./produtos/produto2.html"><img src="./imagens/monitor.jpg" width="210px" height="210px"></a>
+         </li>
+         <li>
+            <a href="./produtos/produto3.html"><img src="./imagens/palcadevideo.jpg" width="210px" height="210px"></a>
+         </li>
+         <li>
+            <a href="./produtos/produto4.html"><img src="./imagens/fizz.jpg" width="210px" height="210px"></a>
+         </li>
+      </ul>
+      <ul class="gabinetes">
+         <li>
+            <p> GABINETE GAMER DEEPCOOL CK560,<br> RGB, MID-TOWER, LATERAL DE VIDRO <br>COM 4 FANS, PRETO,
+               R-CK560-BKAAE4-G-1
+               <br>de <span style="color: red;">R$890.80</span> por:
+               <br> à vista<br>
+               <span style="color:green;"> R$699.99</span>
+            </p>
+         </li>
+         <li class="g1">
+            <p>MONITOR GAMER SAMSUNG ODYSSEY G3, 24, <br> VA, FHD, 1MS, 144HZ, FREESYNC, DP/HDMI/VGA, <br>
+               LF24G35TFWLXZD
+               <br> de <span style="color: red;"> R$2.400,00</span> por:
+               <br> à vista <br>
+               <span style="color: green;"> R$2.190,60</span>
+            </p>
+         </li>
+         <li>
+            <p>PLACA DE VIDEO MANCER GTX 1650 4GB, <br> GDDR6, 128-BIT, <br> MCR-1650AMT-Z1
+               <br> de <span style="color: red;">R$1.299,99</span> por:
+               <br> à vista <br>
+               <span style="color: green;"> R$1.190,30</span>
+            </p>
+         </li>
+         <li>
+            <p>TECLADO MECANICO GAMER REDRAGON <br> FIZZ, RAINBOW, ABNT2 60%, SWITCH, PRETO, <br> K617-R-B-(PT-BROWN)
+               <br> de <span style="color: red"> R$170,90</span> por:
+               <br> à vista <br>
+               <span style="color: green;"> R$140,00</span>
+            </p>
+         </li>
+      </ul>
+      <ul class="produtos">
+         <li>
+            <a href="./produtos/produto5.html"><img src="./imagens/ssd.jpg" width="210px" height="210px"></a>
+         </li>
+         <li>
+            <a href="./produtos/produto6.html"><img src="./imagens/luz.jpg" width="210px" height="210px"></a>
+         </li>
+         <li>
+            <a href="./produtos/produto7.html"><img src="./imagens/teclado.jpg" width="210px" height="210px"></a>
+         </li>
+         <li>
+            <a href="./produtos/produto8.html"><img src="./imagens/pedomonitor.jpg" width="210px" height="210px"></a>
+         </li>
+      </ul>
+      <ul class="gabinetes">
+         <li>
+            <p> SSD PICHAU KEPLER V, 1TB, M.2 2280,  <br>PCIE NVME, LEITURA 3400MB/S,<br> GRAVACAO 3000MB/S, PCH-KPLV-1TB
+               <br>de <span style="color: red;">R$321.80</span> por:
+               <br> à vista<br>
+               <span style="color:green;"> R$312.99</span>
+            </p>
+         </li>
+         <li class="g1">
+            <p>PAINEL DE LED ZINNIA TRIANGULUM,<br> RGB,  6 PECAS, ZNS-ZT6G100-RGB01
+               <br> de <span style="color: red;"> R$2.400,00</span> por:
+               <br> à vista <br>
+               <span style="color: green;"> R$1.700,60</span>
+            </p>
+         </li>
+         <li>
+            <p>TECLADO MECANICO FORTREK <br> CRUISER RGB SWITCH KRGD CRYSTAL, 70549
+               <br> de <span style="color: red;">R$412.90,00</span> por:
+               <br> à vista <br>
+               <span style="color: green;"> R$220.90.00</span>
+            </p>
+         </li>
+         <li>
+            <p>SUPORTE PARA MONITOR TGT TMS 45, <br> 14 POL. A 32 POL., PRETO, TGT-TMS45-BL01
+               <br> de <span style="color: red"> R$170,90</span> por:
+               <br> à vista <br>
+               <span style="color: green;"> R$100,00</span>
+            </p>
+         </li>
+      </ul>
+      <ul class="produtos">
+         <li>
+            <a href="./produtos/produto9.html"><img src="./imagens//notebook.jpg" width="210px" height="210px"></a>
+         </li>
+         <li>
+            <a href="./produtos/produto10.html"><img src="./imagens/watercooler.jpg" width="210px" height="210px"></a>
+         </li>
+         <li>
+            <a href="./produtos/produto11.html"><img src="./imagens/Fone.jpg" width="210px" height="210px"></a>
+         </li>
+         <li>
+            <a href="./produtos/produto12.html"><img src="./imagens/processador.jpg" width="210px" height="210px"></a>
+         </li>
+      </ul>
+      <ul class="gabinetes">
+         <li>
+            <p> NOTEBOOK GAMER GIGABYTE G5 KD,<br> INTEL I5-11400H, 15.6,<br> FHD 144HZ, 16GB DDR4, SSD 512GB M.2,<br> RTX 3060 6GB, KD-52BR123SD
+
+
+
+               <br>de <span style="color: red;">R$9.890,80</span> por:
+               <br> à vista<br>
+               <span style="color:green;"> R$6.699,99</span>
+            </p>
+         </li>
+         <li class="g1">
+            <p>WATER COOLER PICHAU AQUA V2 S220, <br> ARGB, 240MM, PG-AV220-ARGB
+               <br> de <span style="color: red;"> R$1.400,00</span> por:
+               <br> à vista <br>
+               <span style="color: green;"> R$190.60</span>
+            </p>
+         </li>
+         <li>
+            <p>HEADSET GAMER HYPERX CLOUD REVOLVER, <br> SOM SURROUND 7.1, DRIVERS 50MM,<br> PRETO, HHSR1-AH-GM/G
+               <br> de <span style="color: red;">R$770.90</span> por:
+               <br> à vista <br>
+               <span style="color: green;"> R$330.00</span>
+            </p>
+         </li>
+         <li>
+            <p>PROCESSADOR AMD RYZEN 5 5600G,<br> 6-CORE, 12-THREADS, 3.9GHZ (4.4GHZ TURBO),<br> CACHE 19MB, AM4, 100-100000252BOX
+               <br> de <span style="color: red"> R$2.270,90</span> por:
+               <br> à vista <br>
+               <span style="color: green;"> R$1.170,00</span>
+            </p>
+         </li>
+      </ul>
+
+   </div> -->
+</body>
+
+</html>
